@@ -1,0 +1,11 @@
+.copyright {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--title-fs-m);
+  line-height: var(--title-lh-m);
+
+  margin-bottom: 24px;
+}

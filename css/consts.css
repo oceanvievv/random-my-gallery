@@ -1,0 +1,54 @@
+/* Consts */
+:root {
+  /* Titles' font-sizes & line-heights */
+  --title-fs-xl: 24px;
+  --title-lh-xl: 30px;
+  --title-fs-l: 18px;
+  --title-lh-l: 22px;
+  --title-fs-m: 14px;
+  --title-lh-m: 17px;
+  --title-fs-s: 12px;
+  --title-lh-s: 15px;
+  --title-fs-xs: 10px;
+  --title-lh-xs: 12px;
+  
+
+  /* Colors */
+  --color-cape-cod: #4E5150;
+  --color-dark-gray: #A9A9A9;
+  --color-gainsboro: #E5E5E5;
+  --color-silver: #BDBDBD;
+  --color-blue-haze: #B9BDCF;
+}
+
+/* Titles */
+.fullname-title, .location-title, .header__profile-stat {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Text colors */
+.text-color-cape-cod {
+  color: var(--color-cape-cod);
+}
+.text-color-dark-gray {
+  color: var(--color-dark-gray);
+}
+.text-color-silver {
+  color: var(--color-silver);
+}
+.text-color-blue-haze {
+  color: var(--color-blue-haze);
+}
+
+/* Text decorations */
+.text-semi-bold {
+  font-weight: 500;
+}
+.text-bold {
+  font-weight: 700;
+}
+.text-underline {
+  text-decoration: underline;
+}
