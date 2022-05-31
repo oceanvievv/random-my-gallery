@@ -54,3 +54,17 @@
   grid-row-start: 3;
   grid-row-end: 4;
 }
+
+@media (max-width: 1024px) {
+  .gallery-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+@media (max-width: 475px) {
+  .gallery-wrapper {
+    grid-gap: 12px;
+  
+    margin-bottom: 44px;
+  }
+}

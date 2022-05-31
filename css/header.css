@@ -31,6 +31,9 @@
   margin-bottom: 8px;
 }
 .location-title {
+  font-size: var(--title-fs-m);
+  line-height: var(--title-lh-m);
+
   margin-bottom: 24px;
 }
 .header__profile-stats {
@@ -61,4 +64,43 @@
 .header__stat-title {
   font-size: var(--title-fs-m);
   line-height: var(--title-lh-m);
+}
+
+@media (max-width: 475px) {
+  .header-wrapper {
+    margin-top: 30px;
+    margin-bottom: 39px;
+  }
+  .header__photo-wrapper {
+    width: 102px;
+    height: 102px;
+  
+    margin-bottom: 12px;
+  }
+  .fullname-title {
+    font-size: var(--title-fs-m);
+    line-height: var(--title-lh-m);
+  
+    margin-bottom: 8px;
+  }
+  .location-title {
+    font-size: var(--title-fs-xs);
+    line-height: var(--title-lh-xs);
+
+    margin-bottom: 12px;
+  }
+  .header__profile-stats {
+    gap: 12px;
+  }
+  .header__profile-stat {
+    width: 78px;
+  }
+  .header__stat-count {
+    font-size: var(--title-fs-xs);
+    line-height: var(--title-lh-xs);
+  }
+  .header__stat-title {
+    font-size: var(--title-fs-xs);
+    line-height: var(--title-lh-xs);
+  }
 }
